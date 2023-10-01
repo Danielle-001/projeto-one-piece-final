@@ -4,10 +4,10 @@ body {
 }
 
 main::after {
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
-    background-color: violet;
     min-height: 100vh;
     width: 80vw;
 
@@ -21,7 +21,6 @@ main .personagem {
 
 main .personagem.selecionado {
     display: block;
-
 }
 
 main .personagem .imagem {
@@ -76,12 +75,11 @@ main .personagem .imagem {
     align-items: center;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
-
 }
 
 .botoes .botao {
     border: none;
-    background: none#000000;
+    background: #000000;
     cursor: pointer;
     border-radius: 50%;
 }
